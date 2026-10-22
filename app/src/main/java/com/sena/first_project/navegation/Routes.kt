@@ -10,5 +10,11 @@ data object Productos
 
 @Serializable
 data class DetalleProducto(
-    val id: Int,
+    val id: Int
 )
+
+@Serializable
+data object Perfil
+
+@Serializable
+data object Configuracion
